@@ -48,8 +48,8 @@ header a {
   border-radius: 8px;
 }
 
-header a:hover,
-header a:focus {
+header nav a:hover,
+header nav a:focus {
   color: rgb(77,77,77);
   background-color: rgb(255,251,0);
  
@@ -57,12 +57,13 @@ header a:focus {
 
 footer {
   background: linear-gradient(70deg, rgb(24,24,24) , rgb(25,29,29));
+  padding: 36px
 }
 
 footer ul {
   display: flex;
   justify-content: center;
-  padding: 40px;
+ 
 }
 
 footer li {
